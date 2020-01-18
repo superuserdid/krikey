@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Cat Feed</string>
+    <string name="could_not_open_website">Could not open website</string>
+    <string name="network_unavailable">The network is unavailable. Please connect and open the app again.</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Search by breed</string>
+</resources>
