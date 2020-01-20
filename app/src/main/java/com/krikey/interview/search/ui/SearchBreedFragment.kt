@@ -84,7 +84,7 @@ class SearchBreedFragment : Fragment(), SearchBreedContract.View {
     }
 
     override fun clear() {
-        (recyclerView.adapter as SearchBreedAdapter).clear()
+        (recyclerView.adapter as? SearchBreedAdapter)?.clear()
     }
 
     override fun onError(error: SearchBreedContract.Error) {
